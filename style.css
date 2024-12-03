@@ -1,0 +1,30 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 930px;
+    height: 100vh;
+    margin: auto;
+}
+.left img{
+    width: 350px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+.logoContainer{
+    width: 350px;
+    position: relative;
+    height: 100px;
+    opacity: 0.6;
+    top: -100px;
+}
+.logoContainer img{
+    width: 100px;
+    height: 100px;
+}
