@@ -1,18 +1,20 @@
 *{
-    background-color: black;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: norse-bold;
+    src: url("/home/anjali/odin-form/assets/Norse-Bold.otf");
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 930px;
     height: 100vh;
     margin: auto;
 }
 .left img{
-    width: 350px;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -23,8 +25,25 @@
     height: 100px;
     opacity: 0.6;
     top: -100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px;
+    
 }
 .logoContainer img{
     width: 100px;
     height: 100px;
+}
+.logoContainer div{
+    color: white;
+    display: flex;
+    font-family: norse-bold;
+    font-size: 100px;
+    margin-left: 100px;
+}
+
+.right{
+    background-color: rgb(247, 247, 247);
 }
