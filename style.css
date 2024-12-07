@@ -1,6 +1,6 @@
 @font-face{
     font-family: norse-bold;
-    src: url("/home/anjali/odin-form/assets/Norse-Bold.otf");
+    src: url("assets/Norse-Bold.otf");
 }
 *{
     margin: 0;
