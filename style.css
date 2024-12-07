@@ -18,7 +18,7 @@
 .left{
     width :35%;
     height: 100vh;
-    background-image: url("/home/anjali/odin-form/assets/halie-west-25xggax4bSA-unsplash.jpg");
+    background-image: url("https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash");
     background-repeat: no-repeat;
     display: flex;
     background-size: cover;
