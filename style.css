@@ -110,6 +110,19 @@ input{
     margin-top: 5px;
     font-family: "type-writer";
 }
+input:focus{
+    outline: 1px solid blue;
+    box-shadow: 2px 2px 10px -4px rgb(0, 0, 0);
+}
+input[type="password"]:invalid {
+    outline: 1px solid red ;
+  }
+input + span{
+    display: block;
+    color: red;
+    font-size: 10px;
+    margin-top: 3px;
+}
 .bottomArea{
     padding: 20px;
     display: flex;
