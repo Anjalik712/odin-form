@@ -8,11 +8,12 @@
     box-sizing: border-box;
 }
 .container{
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    
+    background-color: black;
 }
 .left{
     width :35%;
@@ -20,7 +21,8 @@
     background-image: url("/home/anjali/odin-form/assets/halie-west-25xggax4bSA-unsplash.jpg");
     background-repeat: no-repeat;
     display: flex;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     flex-direction: column;
     justify-content: space-between;
     align-items: center ;
@@ -30,7 +32,6 @@
     width: 100%;
     position: relative;
     top: 30%;
-    height: 100px;
     opacity: 0.6;
     background-color: black;
     display: flex;
@@ -52,6 +53,8 @@
 .credit{
     color: white;
     font-size: small;
+    margin-bottom: 10px;
+    background-color: transparent;
 }
 .credit a{
     color: white;   
@@ -60,6 +63,71 @@
     background-color: rgb(247, 247, 247);
     display: flex;
     flex-direction: column;
-    /* width: 600px; */
     height: 100vh;
+}
+.textOnlyArea{
+    background-color: rgb(237, 237, 237);
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    word-wrap: break-word;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.formArea{
+    padding: 20px;
+    height: 40%;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 8px 6px -10px black;
+    flex-direction: column;
+    gap: 20px;
+}
+form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.row{
+    display: flex;
+    justify-content:space-between;
+}
+label{
+    display: block;
+    font-size: 11px;
+    font-family:'Times New Roman', Times, serif;
+}
+input{
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    margin-top: 5px;
+    font-family: "type-writer";
+}
+.bottomArea{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 16px;
+}
+button{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #596D48;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+.bottomArea span{
+    color: #596D48;
+    font-weight: bold;
 }
