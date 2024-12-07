@@ -18,7 +18,7 @@
 .left{
     width :35%;
     height: 100vh;
-    background-image: url("/assets/halie-west-25xggax4bSA-unsplash.jpg");
+    background-image: url("unsplash.jpg");
     background-repeat: no-repeat;
     display: flex;
     background-size: cover;
