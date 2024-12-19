@@ -79,7 +79,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .formArea{
-    padding: 20px;
+    padding-left: 20px;
     height: 40%;
     display: flex;
     background-color: white;
